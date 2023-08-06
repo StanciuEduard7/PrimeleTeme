@@ -1,0 +1,177 @@
+body {
+  background-color:#141e4c;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color:#141e4c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+ }
+
+ .container {
+  background-color:#141e4c;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin: auto;
+  width: 0%;
+}
+
+.tri {
+  font-size: 15px;
+}
+
+.it-school-photo {
+  width: auto;
+  height: 60px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+  padding-top: 2px;
+  padding-left: 0;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  padding-right: 25px;
+  margin-top: 5px;
+}
+
+ul li ul.dropdown {
+  width: 100%;
+  background-color: #101d42;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+.dropdown {
+  padding-right: 0px;
+  padding-left: 0;
+}
+
+ul li a:hover {
+  color: orange;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+.menu-icon-container {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: auto;
+  padding: var(--spaceing-medium);
+}
+
+.titlu-h1 {
+  color: white;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  padding: 119px;
+}
+
+.toti-trainerii {
+  background-color: white;
+  margin-top: 300px;
+  display: flex;
+  justify-content: row;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: auto;
+  padding: var(--spacing-medium);
+}
+
+.imagine-trainer {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  filter: grayscale(100%);
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-top: -70px;
+}
+
+.trainer {
+  box-sizing:content-box;
+  display: flex;
+  width: 25%;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  min-height: 350px;
+  margin-top: 55px;
+  border-color: white;
+  border: 1px solid rgb(209, 194, 194);
+  margin-bottom: 35px;
+  margin-left: 15px;
+}
+
+
+h3 {
+  background-color: rgba(20, 30, 76, 0.9);
+  color: #fbb44c;
+  font-size: var(--fs-large);
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  padding: var(--spacing-tiny) 0;
+  position: absolute;
+  font-weight: 400;
+  margin-top: 55px;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-top: 15px;
+}
+
+.parinte {
+  position: relative;
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.spate {
+  background-color: white;
+  padding: 55px;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  padding: 25px;
+  font-size: smaller;
+  text-decoration: none;
+}

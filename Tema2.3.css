@@ -1,0 +1,53 @@
+.parinte {
+  display: flex;
+  position: fixed;
+  margin: 150px;
+  justify-content: center;
+}
+
+.copil {
+  border-style: solid;
+  border-color:bisque;
+  margin: 50px 50px;
+  padding: 50px 50px;
+  background-image: url('Poze/Luna.jpeg');
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: cover;
+  border-width: 6px;
+  border-radius: 2px;
+  font-size: 30px large;
+  font-family: Italic;
+  color: rgb(78, 255, 33);
+}
+
+body {
+  background-color: tan;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-color: blue;
+  }
+  .parinte {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+
+  }
+  .parinte {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.os {
+  justify-content: center;
+  font-size: 50px;
+  display: flex;
+  margin-top: 20px;
+}
